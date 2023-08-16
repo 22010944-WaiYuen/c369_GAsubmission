@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="paymentpage.css">
+    <title>Payment Page</title>
+</head>
+<body>
+    <div class="payment-container">
+        <h1>Payment</h1>
+        <form id="payment-form">
+            <label for="payment-method">Select Payment Method</label>
+            <select id="payment-method" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="venmo">Venmo</option>
+            </select>
+
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" maxlength="16" required>
+
+            <label for="expiry-date">Expiry Date</label>
+            <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>
+
+            <label for="cvv">CVV Number</label>
+            <input type="password" id="cvv" maxlength="3" required>
+
+            <label for="otp">OTP</label>
+            <input type="text" id="otp" maxlength="6" required>
+            
+            <button type="submit">Make Payment</button>
+        </form>
+        <p class="resend-otp"><a href="#">Never receive one? Resend</a></p>
+    </div>
+    <script src="paymentpage.js"></script>
+    <footer>
+        <p>&copy; 2023 RP FinBank Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+/* Styles for the header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+/* Add styles for the investment table */
+.investment-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; /* Add border to the table */
+}
+
+.investment-table th,
+.investment-table td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px;
+    text-align: left;
+}
+
+.investment-table th {
+    background-color: #f2f2f2; /* Add background color to table header cells */
+}

@@ -1,0 +1,67 @@
+/* Styles for the header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+/* Apply styles to the table */
+.service-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc; /* Add a border around the table */
+}
+
+.service-table th, .service-table td {
+    border: 1px solid #ccc; /* Add borders to table cells */
+    padding: 10px;
+}
+
+/* Add a border between rows */
+.service-table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Remove border from the last row */
+.service-table tr:last-child {
+    border-bottom: none;
+}
+
+/* Styles for the table cells with borders */
+.about-us-table th, .about-us-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Additional styling for section headings and content */
+.section-heading {
+    font-weight: bold;
+    background-color: #f0f0f0; /* Optional background color for section headings */
+}
+
+.section-content {
+    background-color: #ffffff; /* Optional background color for section content */
+}
+

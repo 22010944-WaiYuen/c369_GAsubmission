@@ -1,0 +1,40 @@
+/* Styles for the header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2a9976; /* Change to your desired background color */
+    color: #1e1c1c; /* Text color */
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav li a {
+    color: #461717; /* Text color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav li a:hover {
+    color: #721c1c; /* Change text color on hover */
+}
