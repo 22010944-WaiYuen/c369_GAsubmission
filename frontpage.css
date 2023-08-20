@@ -71,15 +71,27 @@ nav ul li a:hover {
 
 .background-image {
     background-image: url('customer.jpeg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    width: 500px;
-    height: calc(100vh - 60px); /* Adjust based on your header height */
-    position: absolute;
-    top: 60px; /* Adjust based on your header height */
+    background-size: cover; /* Cover the entire container with the image */
+    background-position: center center; /* Center the image both horizontally and vertically */
+    width: 100%; /* Expand the image to the full width of the viewport */
+    height: 100vh; /* Expand the image to the full height of the viewport */
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: -1;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%; /* Position at the vertical center */
+    left: 50%; /* Position at the horizontal center */
+    transform: translate(-50%, -50%); /* Center the element perfectly */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 10px;
 }
 
