@@ -7,7 +7,17 @@
     <title>Payment Page</title>
 </head>
 <body>
-    <div class="payment-container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="investment_ideas.html">Investment Ideas</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="payment-container" id="payment-container">
         <h1>Payment</h1>
         <form id="payment-form">
             <label for="payment-method">Select Payment Method</label>
@@ -15,7 +25,9 @@
                 <option value="" disabled selected>Select an option</option>
                 <option value="credit-card">Credit Card</option>
                 <option value="paypal">PayPal</option>
-                <option value="venmo">Venmo</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Visa">Visa</option>
+                <option value="American Express">American Express</option>
             </select>
 
             <label for="card-number">Card Number</label>
