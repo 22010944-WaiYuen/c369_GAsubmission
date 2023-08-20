@@ -1,3 +1,9 @@
+body {
+    background-color: #f2cfe3; /* Change this to your desired background color */
+    margin: 0; /* Reset margin to remove default spacing */
+    font-family: Arial, sans-serif; /* Set a default font family */
+}
+
 /* Styles for the header */
 .header-container {
     display: flex;
